@@ -106,12 +106,4 @@ Q-table has a finite, manageable state space (~1,250 states × 3 actions).
   during exploration) to consistently positive (mostly correct) as
   epsilon decays and the Q-table converges.
 
-## 🚀 Possible Extensions
-1. Replace tabular Q-learning with a **Deep Q-Network (DQN)** — use a
-   neural network instead of a table, allowing continuous (non-bucketed)
-   state features.
-2. Add a **multi-step framing**: treat an entire tournament as one episode,
-   with cumulative reward across a team's matches.
-3. Feed in betting-market odds as an additional state feature (usually the
-   single strongest real-world predictor).
 # Football-Match-Winner-Prediction-Reinforcement-Learning-Project-
